@@ -12,19 +12,13 @@
 #endif
 
 
-#include "USI_TWI_Slave.h"
-#include "i2c/usiTwiSlave.h"
-
-
 #include <avr/interrupt.h>
-#include <avr/pgmspace.h>
-#include <avr/power.h>
-#include <avr/sleep.h>
 #include <avr/wdt.h>
-#include <util/delay.h>
 #include <iso646.h>
 #include <stdbool.h>
 
+
+#include "i2c/usiTwiSlave.h" // implementation lacks header completeness
 
 
 /*

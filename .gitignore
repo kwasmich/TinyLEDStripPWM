@@ -30,3 +30,7 @@
 
 # Debug files
 *.dSYM/
+
+
+**/.DS_Store
+i2c
