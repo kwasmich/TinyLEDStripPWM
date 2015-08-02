@@ -5,7 +5,7 @@ CC=avr-gcc
 AVRSIZE=avr-size
 CFLAGS=-Wall -Os -mmcu=$(MCU)
 LDFLAGS=
-SOURCES=main.c USI_TWI_Slave.c i2c/usiTwiSlave.c
+SOURCES=main.c i2c/usiTwiSlave.c
 OBJECTS=$(SOURCES:%.c=%.o)
 EXECUTABLE=TinyLEDStripPWM
 
