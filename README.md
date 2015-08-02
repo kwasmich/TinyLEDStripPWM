@@ -12,11 +12,17 @@ The MCU is addressed via I2C. The initial address is `0x3f`.
 The following registers are accessible:
 
 `@ (0x40)` - I2C-Address (MCU reboots after this is set)
+
 `R (0x52)` - Initial value for r
+
 `G (0x47)` - Initial value for g
+
 `B (0x42)` - Initial value for b
+
 `r (0x72)` - Current value for r
+
 `g (0x67)` - Current value for G
+
 `b (0x62)` - Current value for B
 
 All registers can be read and written to but only `@`, `R`, `G` and `B` are persistent via EEPROM.
