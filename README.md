@@ -2,7 +2,7 @@ TinyLEDStripPWM
 ===============
 
 MCU to drive a 12V analog LED Strip with PWM controlled over I2C.
-It is intendend to be a companion for my branch of [shairport](https://github.com/kwasmich/shairport).
+It is intendend to be a companion for my branch of [shairport-sync](https://github.com/kwasmich/shairport-sync).
 
 
 Build Requirements
